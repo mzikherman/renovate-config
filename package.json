@@ -128,6 +128,9 @@
       "extends": [
         "config:base"
       ],
+      "bundler": {
+        "enabled": true
+      },
       "packageRules": [
         {
           "managers": [
@@ -192,7 +195,8 @@
       ],
       "enabledManagers": [
         "npm",
-        "circleci"
+        "circleci",
+        "bundler"
       ],
       "ignoreDeps": [
         "artsy/hokusai"
